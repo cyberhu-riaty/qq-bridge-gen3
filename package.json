@@ -3,6 +3,10 @@
   "version": "0.3.0",
   "private": true,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyberhu-riaty/qq-bridge-gen3.git"
+  },
   "description": "Bridge between SnowLuma (OneBot v11 / QQ) and DeepSeek Harness: QQ chats drive a DSH agent with simulated social behavior (three generations, Gen3 in reserved3), safe MCP tools, memory, personas and a local console.",
   "type": "module",
   "engines": {

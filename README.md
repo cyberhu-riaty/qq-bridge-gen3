@@ -240,8 +240,8 @@ QQ 消息 ──► SnowLuma（OneBot v11）──►桥接进程──► DSH W
 （默认 `http://127.0.0.1:3080`，端口会自动跟随）。
 
 ```bash
-git clone https://github.com/<你的 GitHub 用户名>/qq-bridge.git
-cd qq-bridge
+git clone https://github.com/cyberhu-riaty/qq-bridge-gen3.git
+cd qq-bridge-gen3
 npm install                              # postinstall 会修补 SnowLuma SDK 的 ESM 问题
 cp config.example.json config.json       # Windows 用：copy config.example.json config.json
 node scripts/setup-dsh.mjs               # 把 preset + MCP 装进 DSH，然后重启 DSH
